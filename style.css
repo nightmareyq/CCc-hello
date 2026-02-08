@@ -1,0 +1,53 @@
+h1 {
+    font-size: 30px;
+   font-family: 'Kanit', sans-serif;
+
+    margin-bottom: 3cap;
+    margin-top: 3cap;
+}
+
+p {
+    font-size: large;
+}
+
+#song {
+    width: 80%;
+    margin-bottom: 2cap;
+    margin-top: -1cap;
+
+}
+
+body {
+    text-align: center;
+     margin: 0;
+     
+}
+
+body::before {
+    
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 247, 247, 0.4);
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://media1.tenor.com/m/WBDOBnaOGtkAAAAC/falling-pink-hearts.gif");
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px) brightness(1.5);
+  z-index: -1;
+
+}
+
+.content {
+  position: relative;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  
+}
