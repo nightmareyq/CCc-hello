@@ -7,10 +7,11 @@ h1 {
 
 p {
     font-size: large;
+    font-family: 'Kanit', sans-serif;
 }
 
 #song {
-    width: 70%;
+    width: 100%;
     margin-bottom: -1cap;
     margin-top: 0cap;
 
@@ -42,13 +43,13 @@ body::before {
   z-index: -2;
 }
 
-/* กล่องสีขาวตรงกลาง */
+
 .content {
   position: relative;
-  max-width: 800px;
-  margin: 60px auto;
-  padding: 100px;
+  max-width: 768px;
+  margin: 20px 16px;
+  padding: 20px;
   background: rgba(255, 255, 255, 0.9);
-  border-radius: 10px;
+  border-radius: 16px;
   z-index: 1;
 }
