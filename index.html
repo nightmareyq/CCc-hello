@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cc Hello</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+``
+
   
 </head>
 
@@ -13,46 +15,54 @@
   <div class="bg"></div>
   <div class="content">
 
-
-  <h1>HAPPY VALENTINE DAY <br>
-        My Cc</h1><br>
+<br>
+  <h1>Happy Valentine day <br>
+         Cc-Hello </h1><br>
       
   
   <p>"กดเล่นเพลงด้านล่างเพื่ออถรรสที่ดี" </p>
   <audio id="song" controls loop >
-    <source src="song.mp3">
-  </audio><br>
+    <source src="song.mp3"></audio>
+    <br><br><br><br>
 
-  <img width="150" src="https://media.tenor.com/0p54Ll3ekM0AAAAj/cute-cat.gif"><br>
-
-    <img width="300" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDR2am9xemo3d2o5cHR0aWEycWY4NTJpbGYzbDU0eHhsdGpsODN4cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MDJ9IbxxvDUQM/giphy.gif" alt="cat-mwah"><br>
-    <label for="username">username</label><br>
-    <input type="text" name="username" id="username"><br>
-    <label for="password">password</label><br>
-    <input type="password" name="password" id="password"><br>
+    <img width="300" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGVxYTUzMGNxOTY4aWYwNDIyOWs4eXFub254dWk4cThqbHIzcHpsayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uKvAWApE3vWL1MAASf/giphy.gif" alt="cat-mwah"><br><br><br>
+    <h2>Could you be my Valentine?</h2><br>
+    
 
 
-  <button id="btn">ใช่</button>
+  <button class="state-9" id="btn">Yes</button>
   <script src="java.js"></script>
 
-  <button onclick="showAlert()">ไม่</button>
+  <button class="state-0" onclick="showAlert()">No</button>
   <script>
-     const messages = ["อย่าให้มีครั้งที่ 2", "อย่าให้มีครั้งที่ 3", "ครั้งที่ 4 นี่ไม่ควร", "จะเอาไง?", "ซี", "ทำดี ๆ 😡", "แง่ง ๆๆๆๆๆๆ บ๊อก ๆ บรู๊ววว ไปกดอีกปุ่ม!"];
+    const messages = [
+      "อย่าให้มีครั้งที่ 2", 
+      "อย่าให้มีครั้งที่ 3", 
+      "ครั้งที่ 4 นี่ไม่ควร", 
+      "จะเอาไง?", 
+      "ซี", 
+      "ทำดี ๆ 😡", 
+      "แง่ง ๆๆๆๆๆๆ บ๊อก ๆ บรู๊ววว ไปกดอีกปุ่ม!"
+    ];
       let i = 0;
 
       function showAlert() {
       alert(messages[i]);
       i = (i + 1) % messages.length;
     };
-  </script>
+</script><br>
 
+ <img width="150" src="https://media.tenor.com/0p54Ll3ekM0AAAAj/cute-cat.gif"><br>
 
-
-  
+<!--   
     <h2>checklist</h2>
     <input type="checkbox">wake up<br>
     <input type="checkbox">wake up late<br>
-    <input type="checkbox">wake up in the moring<br>
+    <input type="checkbox">wake up in the moring<br> -->
+    <!-- <label for="username">username</label><br>
+    <input type="text" name="username" id="username"><br>
+    <label for="password">password</label><br>
+    <input type="password" name="password" id="password"><br> -->
 
   
   </div>
