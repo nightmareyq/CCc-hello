@@ -16,39 +16,45 @@
 
   <h1>HAPPY VALENTINE DAY <br>
         My Cc
-      <img width="35" src="https://media.tenor.com/Z7eD3FqHOOcAAAAj/heart-hearts.gif"></h1>
+      
   
   <p>"กดเล่นเพลงด้านล่างเพื่ออถรรสที่ดี" </p>
   <audio id="song" controls loop >
     <source src="song.mp3">
   </audio><br>
 
-  <img width="100" src="https://media.tenor.com/0p54Ll3ekM0AAAAj/cute-cat.gif"><br>
+  <img width="150" src="https://media.tenor.com/0p54Ll3ekM0AAAAj/cute-cat.gif"><br>
 
-    <img width="300" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrTjU_OsPcpMR1tMAO7irXn9zEYfokTmxjkA&s" alt="gojo"><br>
+    <img width="300" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDR2am9xemo3d2o5cHR0aWEycWY4NTJpbGYzbDU0eHhsdGpsODN4cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MDJ9IbxxvDUQM/giphy.gif" alt="cat-mwah"><br>
     <label for="username">username</label><br>
     <input type="text" name="username" id="username"><br>
     <label for="password">password</label><br>
     <input type="password" name="password" id="password"><br>
-    <button onclick="alert('error')" type="button">botton</button>
-    <button onclick="alert('error')" type="submit">submit</button>
-    <button onclick="alert('error')" type="reset">reset</button>
+
+
+  <button id="btn">ใช่</button>
+  <script src="java.js"></script>
+
+  <button onclick="showAlert()">ไม่</button>
+  <script>
+     const messages = ["อย่าให้มีครั้งที่ 2", "อย่าให้มีครั้งที่ 3", "ครั้งที่ 4 นี่ไม่ควร", "จะเอาไง?", "ซี", "ทำดี ๆ 😡", "แง่ง ๆๆๆๆๆๆ บ๊อก ๆ บรู๊ววว ไปกดอีกปุ่ม!"];
+      let i = 0;
+
+      function showAlert() {
+      alert(messages[i]);
+      i = (i + 1) % messages.length;
+    };
+  </script>
+
+
+
+  
     <h2>checklist</h2>
     <input type="checkbox">wake up<br>
     <input type="checkbox">wake up late<br>
     <input type="checkbox">wake up in the moring<br>
 
-    <button id="btn">กดเลย</button>
-    <p id="text"></p>
-    <script src="javascript/java.js"></script>
-
-    <button id="btn1">ปุ่มที่ 1</button>
-    <script src="javascript/java.js"></script>
-    <button id="btn2">ปุ่มที่ 2</button>
-    <script src="javascript/java.js"></script>
-
-    <button id="nextBtn">ไปหน้าถัดไป</button>
-    <script src="javascript/java.js"></script>
+  
   </div>
 </body>
 </html>
