@@ -16,7 +16,7 @@ p {
 }
 
 #song {
-    width: 70%;
+    width: 90%;
     margin-bottom: -1cap;
     margin-top: 0cap;
 
@@ -37,7 +37,7 @@ body {
 .state-0 { color: #fff;}
 .state-0 { font-weight: bold;}
 .state-0 {box-shadow: 0 8px 20px rgba(255, 105, 180, 0.4);}
-.state-0 {width: 2cm;}
+.state-0 {width: 1cm;}
 
 .state-9 { background: rgb(85, 255, 0); }
 .state-9{padding: 14px 28px;}
@@ -46,7 +46,7 @@ body {
 .state-9{ color: #fff;}
 .state-9 { font-weight: bold;}
 .state-9 {box-shadow: 0 8px 20px rgba(255, 105, 180, 0.4);}
-.state-9 {width: 8cm;}
+.state-9 {width: 5cm;}
 
 
 body::before {
