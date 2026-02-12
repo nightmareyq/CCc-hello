@@ -10,9 +10,18 @@ h2 { font-size: 30px;
     margin-bottom: 0cap;
     margin-top: 0cap;}
 
+  h3 { font-size: 25px;
+   font-family: 'Itim', cursive;
+    }
+
+
+
+
+
+
 p {
     font-size: larger;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Itim', cursive;
 }
 
 #song {
@@ -20,7 +29,10 @@ p {
     margin-bottom: -1cap;
     margin-top: 0cap;
 
+    
 }
+
+
 
 body {
     text-align: center;
@@ -33,20 +45,20 @@ body {
 .state-0 { background: rgb(255, 83, 21); }
 .state-0 {padding: 14px 28px;}
 .state-0 {border-radius: 999px;}
-.state-0 {background: linear-gradient(135deg, #ff9a9e, #fad0c4);}
+.state-0 {background: linear-gradient(135deg, #ff9a9e, #fac4e9);}
 .state-0 { color: #fff;}
 .state-0 { font-weight: bold;}
 .state-0 {box-shadow: 0 8px 20px rgba(255, 105, 180, 0.4);}
-.state-0 {width: 1cm;}
+.state-0 {width: 2cm;}
 
 .state-9 { background: rgb(85, 255, 0); }
 .state-9{padding: 14px 28px;}
 .state-9{border-radius: 999px;}
-.state-9{background: linear-gradient(135deg, #ff9a9e, #fad0c4);}
+.state-9{background: linear-gradient(135deg, #ff9a9e, #fac4e9);}
 .state-9{ color: #fff;}
 .state-9 { font-weight: bold;}
 .state-9 {box-shadow: 0 8px 20px rgba(255, 105, 180, 0.4);}
-.state-9 {width: 5cm;}
+.state-9 {width: 8cm;}
 
 
 body::before {
